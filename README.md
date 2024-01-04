@@ -1,4 +1,4 @@
-# yswm - yosyo's own build of dwm
+# ys-wm - yosyo's own build of dwm
 
 dwm is an extremely fast, small, and dynamic window manager for X.
 
@@ -6,8 +6,8 @@ Requirements
 
 In order to build dwm you need the Xlib header files.
 
-Installation
-------------
+## Installation
+
 Edit config.mk to match your local setup.
 
 Afterwards enter the following command to build and install dwm :
@@ -19,8 +19,8 @@ Don't forget to add it to the path, or do this if you have sudo privileges
     sudo make install
 
 
-Running dwm
------------
+## Running dwm
+
 Add the following line to your .xinitrc to start dwm using startx:
 
     exec dwm
@@ -35,7 +35,7 @@ like this in your .xinitrc:
     exec dwm
 
 
-Configuration
--------------
+## Configuration
+
 The configuration of dwm is done by creating a custom config.h
 and (re)compiling the source code.
