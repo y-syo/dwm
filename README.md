@@ -18,6 +18,13 @@ Don't forget to add it to the path, or do this if you have sudo privileges
 
     sudo make install
 
+you will also need this script in your path, named ``eww-menu``
+
+    if [[ $(eww active-windows) == "" ]]; then
+    	eww open menu
+    else
+    	eww close menu
+    fi
 
 ## Running dwm
 
